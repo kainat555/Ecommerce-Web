@@ -1,0 +1,50 @@
+
+body{
+    font-family: 'Lemonada', cursive;
+}
+h1{ 
+   text-transform: uppercase;
+   /* border-bottom: 3px solid blue; */
+   text-decoration: underline;
+}
+
+.heading{
+    text-align: center;
+}
+
+.stayConn,
+.customerSrvcs,
+.sub{
+   margin: 0 100px !important;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.cart-quantity-input{
+    width: 40px;
+}
+
+.cart-total,
+.btn-purchase{
+    margin: 0 200px;
+}
+
+.navbar{
+    color:white !important;
+}
+
+.img-fluid{
+    width: 1100px !important;
+    height: 600px !important;
+}
+
+#contact{
+    text-decoration: none;
+    color: white;
+}
+
+.fab{
+    color: white;
+}
