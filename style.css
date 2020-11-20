@@ -48,3 +48,7 @@ h1{
 .fab{
     color: white;
 }
+
+.btn_showMore{
+    border-radius: 5px;
+}

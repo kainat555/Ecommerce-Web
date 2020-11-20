@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bags Queen</title>
+
+    <!-- ******* style CSS ******** -->
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/b0ae396e2b.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- ************ font awesome kit code ************** -->
+    <script src="https://kit.fontawesome.com/b0ae396e2b.js" crossorigin="anonymous"></script>
+
+    <!-- ******* bootstrap CSS ******** -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
+
 <body>
+
+
+    <!-- *********** logo ************ -->
     <div class="section">
         <div class="container">
             <div class="row">
@@ -18,162 +29,184 @@
                     <img src="images/logo (1).png" alt="">
                 </div>
             </div>
-            </div>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link mx-4" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link mx-4" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle mx-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        </div>
+    </div>
+
+
+    <!-- ************ navbar ************* -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link mx-4" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-4" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mx-4" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">New Arrivals</a>
                         <a class="dropdown-item" href="handbags.html">Hand Bags</a>
                         <a class="dropdown-item" href="clutches.html">Clutches</a>
-                      </div>
-                    </li>
-                    <li class="nav-item mx-4">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light bg-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <button onclick="cartBtnClicked()" type="button" class="btn btn-outline-secondary mx-3" data-toggle="modal" 
-                    data-target="##exampleModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                </div>
-              </nav>
-              <br><br>
-              <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h1 class="heading text-primary">New Arrivals</h1><br><br>
-                            <div class="card-deck">
-                                <div class="card shop-items">
-                                    <img class="card-img-top" src="images/NA4.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US $19.80 / piece</h5>
-                                        <button class="btn btn-primary shop-items-button">Add to Cart</button>
-                                    </div>
-        
-                                </div>
-                                <div class="card shop-items">
-                                    <img class="card-img-top" src="images/NA5.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US $31.99 / piece</h5>
-                                        <button class="btn btn-primary shop-items-button">Add to Cart</button>
-                                    </div>
-        
-                                </div>
-                                <div class="card shop-items">
-                                    <img class="card-img-top" src="images/NA3.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US $23.33 / piece</h5>
-                                        <button class="btn btn-primary shop-items-button">Add to Cart</button>
-                                    </div>
-        
-                                </div>
+                    </div>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light bg-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <button onclick="cartBtnClicked()" type="button" class="btn btn-outline-secondary mx-3" data-toggle="modal"
+                data-target="##exampleModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+        </div>
+    </nav>
+
+    <!-- ************ new Arrival section ************* -->
+    <!-- ******** row 1 ********** -->
+    <div class="section">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col">
+                    <h1 class="heading text-primary">New Arrivals</h1><br><br>
+                    <div class="card-deck">
+                        <div class="card shop-items">
+                            <img class="card-img-top" src="images/NA4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">US $19.80 / piece</h5>
+                                <button class="btn btn-primary shop-items-button">Add to Cart</button>
                             </div>
+
+                        </div>
+                        <div class="card shop-items">
+                            <img class="card-img-top" src="images/NA5.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">US $31.99 / piece</h5>
+                                <button class="btn btn-primary shop-items-button">Add to Cart</button>
+                            </div>
+
+                        </div>
+                        <div class="card shop-items">
+                            <img class="card-img-top" src="images/NA3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">US $23.33 / piece</h5>
+                                <button class="btn btn-primary shop-items-button">Add to Cart</button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <br><br>
-            <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card-deck">
-                                <div class="card shop-items">
-                                    <img class="card-img-top" src="images/NA1.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US $16.88 / piece</h5>
-                                        <button class="btn btn-primary shop-items-button">Add to Cart</button>
-                                    </div>
-        
-                                </div>
-                                <div class="card shop-items">
-                                    <img class="card-img-top" src="images/NA2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US $21.99 / piece</h5>
-                                        <button class="btn btn-primary shop-items-button">Add to Cart</button>
-                                    </div>
-        
-                                </div>
-                                <div class="card shop-items">
-                                    <img class="card-img-top" src="images/NA6.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US $29.77 / piece</h5>
-                                        <button class="btn btn-primary shop-items-button">Add to Cart</button>
-                                    </div>
-        
-                                </div>
+        </div>
+    </div>
+
+
+    <!-- ******** row 1 ********** -->
+    <div class="section">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card-deck">
+                        <div class="card shop-items">
+                            <img class="card-img-top" src="images/NA1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">US $16.88 / piece</h5>
+                                <button class="btn btn-primary shop-items-button">Add to Cart</button>
                             </div>
+
+                        </div>
+                        <div class="card shop-items">
+                            <img class="card-img-top" src="images/NA2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">US $21.99 / piece</h5>
+                                <button class="btn btn-primary shop-items-button">Add to Cart</button>
+                            </div>
+
+                        </div>
+                        <div class="card shop-items">
+                            <img class="card-img-top" src="images/NA6.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">US $29.77 / piece</h5>
+                                <button class="btn btn-primary shop-items-button">Add to Cart</button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-           
-    <br><br>
-              <hr>
-              <div class="footer">
-                <div class="container-fluid text-light bg-primary">
-                    <div class="row">
-                        <div class="col stayConn">
-                            <p class="my-2">Stay Connected</p>
-                            <a href="https://www.facebook.com"><i class="fab fa-facebook-f mx-2"></i></a>
-                            <!-- <a href="https://www.facebook.com"><i class="fab fa-whatsapp mx-2"></i> -->
-                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram mx-2"></i></a>
-                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter mx-2"></i></a>
-                            <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g mx-2"></i></a>
-                            <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p mx-2"></i></a>
-                        </div>
-                        <div class="col customerSrvcs">
-                            <p class="my-2">Customer Services
-                            <ul>
-                                <li>Terms and Conditions</li>
-                                <li>Complain Policy</li>
-                                <li>Privacy Agreement</li>
-                                <a id="contact" href="contact.html"><li >Contact Us</li></a>
-                            </ul>
-                            </p>
-        
-                        </div>
-                    <div class="col sub">
-                        <p class="my-2">
-                          Subscribe to our news letter by sign up</p>
-                          <input type="email" name="email" id="" placeholder="Enter email address">
-                          <button class="btn btn-primary btn btn-sm" type="button">Subscribe</button> 
-                    </div>
-                  </div>
-        
+        </div>
+    </div>
+
+
+
+    <hr>
+    <!-- ***************** footer ****************** -->
+    <div class="footer">
+        <div class="container-fluid text-light bg-primary">
+            <div class="row">
+                <div class="col stayConn">
+                    <p class="my-2">Stay Connected</p>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f mx-2"></i></a>
+                    <!-- <a href="https://www.facebook.com"><i class="fab fa-whatsapp mx-2"></i> -->
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram mx-2"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter mx-2"></i></a>
+                    <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g mx-2"></i></a>
+                    <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p mx-2"></i></a>
                 </div>
-              </div>
-                <div class="copyright">
-                  <p>Copyright<i class="far fa-copyright mx-2"></i>2020 KS Inc. All rights reserved</p>
+                <div class="col customerSrvcs">
+                    <p class="my-2">Customer Services
+                    <ul>
+                        <li>Terms and Conditions</li>
+                        <li>Complain Policy</li>
+                        <li>Privacy Agreement</li>
+                        <a id="contact" href="contact.html">
+                            <li>Contact Us</li>
+                        </a>
+                    </ul>
+                    </p>
+
                 </div>
+                <div class="col sub">
+                    <p class="my-2">
+                        Subscribe to our news letter by sign up</p>
+                    <input type="email" name="email" id="" placeholder="Enter email address">
+                    <button class="btn btn-primary btn btn-sm" type="button">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ******** copyright ********* -->
+    <div class="copyright">
+        <p>Copyright<i class="far fa-copyright mx-2"></i>2020 KS Inc. All rights reserved</p>
+    </div>
 
 
 
+  <!-- *********** JS file ************ -->
+  <script src="app.js"></script>
 
-
-
-
-
-
-<script src="app.js"></script>
+  <!-- bootstrap JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
